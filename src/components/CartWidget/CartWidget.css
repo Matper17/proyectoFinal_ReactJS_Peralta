@@ -1,0 +1,6 @@
+.carritoCompras .carrito{
+    border-radius: 3px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+}

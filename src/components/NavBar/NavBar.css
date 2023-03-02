@@ -1,0 +1,33 @@
+.header{
+    background-color: rgb(69, 69, 122);
+}
+.contenedor-principal{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoHeader{
+    display: flex;
+    height: 120px;
+    width: 120px;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+.navbar{
+    color: rgb(81, 81, 160);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+.navBar{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+

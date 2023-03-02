@@ -1,17 +1,28 @@
-import { Form } from "./components/Form/Form";
-import "./components/Form/Form.css";
-import { Especialidad } from "./components/Especialidad/Especialidad";
-import "bootstrap/dist/css/bootstrap.min.css"
-// import { Especialidad } from "./components/Form/Especialidad"
-// import { Reserva } from "./components/Form/Reserva"
+import "./App.css";
+
+import  {NavBar} from "./components/NavBar/NavBar";
+import ItemListConteiner from "./components/ItemListConteiner/ItemListConteiner";
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+// import "bootstrap/dist/css/bootstrap.min.css"
+
 
 function App() {
   return ( 
       <div>
-        <Form />
-        <Especialidad />
+        <NavBar />
+        <ItemListConteiner greeting = "Bienvenidos/as a MP-Training Force" />
         <div>
-          <button className="boton-principal"> Elegir especialidad </button>
+        <Card style={{ width: '18rem' }}>
+          <Card.Img variant="top" src="./imgs/dumbells.jfif" />
+            <Card.Body>
+              <Card.Title>Producto 1</Card.Title>
+              <Card.Text>
+                Mancuernas 10kg
+              </Card.Text>
+              <Button variant="primary">Añadir al carrito</Button>
+            </Card.Body>
+        </Card>
         </div>
       </div>
       
