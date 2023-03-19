@@ -11,7 +11,7 @@ export const pedirDatos = () =>{
 export const pedrirProductosPorId = (id) =>{
     return new Promise ((resolve, reject) =>{
         setTimeout(()=>{
-            resolve(MOCK_DATA.find(prod => prod.id ===id))
+            resolve(MOCK_DATA.find(prod => prod.id === id))
         }, 2000)
     })
 }

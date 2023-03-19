@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import {pedrirProductosPorId} from "../helpers/pedirDatos"
+import { pedrirProductosPorId } from "../helpers/pedirDatos"
+import ItemDetail from "../ItemDetail/ItemDetail";
 
 const ItemDetailConteiner = () =>{
     const [item, setItem] = useState(null)
@@ -20,7 +21,7 @@ const ItemDetailConteiner = () =>{
     return(
         <div>
             {
-                loading ? <h2>Cargando..</h2> : <itemDetail item={item}/>
+                loading ? <h2>Cargando..</h2> : <ItemDetail item={item}/>
             }
         </div>
     )

@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import './ItemDetail.css'
 const ItemDetail = ({item}) =>{
     const navigate = useNavigate()
     const handleVolver = () =>{

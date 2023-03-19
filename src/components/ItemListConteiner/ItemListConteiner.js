@@ -1,7 +1,7 @@
 import "./ItemListConteiner.css"
 import { useEffect, useState } from "react"
 import { pedirDatos } from "../helpers/pedirDatos"
-//import itemList from "../itemList/itemList" ---> ME DICE QUE ESTA DEFINIDO PERO QUE NO SE USA ¡¡VER!!
+import ItemList from "../itemList/itemList" 
 import { useParams } from "react-router-dom"
 
 
@@ -32,7 +32,7 @@ const ItemListConteiner = () => {
     return(
         <div className="container">
             {
-                loading ? <h2>Cargando..</h2> : <itemList item={prod}/>
+                loading ? <h2>Cargando..</h2> : <ItemList item={prod}/>
             }
         </div>
     )
