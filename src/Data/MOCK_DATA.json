@@ -5,11 +5,19 @@
 {"id": 4, "nombre": "Barra W", "tipo": "Barra", "desc": "Barra de fundición", "marca": "G-fitness", "peso": "12kg", "precio": 20000, "img": "/Images/barraW.jfif", "cantidad": 1},
 {"id": 5, "nombre": "Medball 20kg", "tipo": "Pelota", "desc": "Cuerina premium", "marca": "Sonnos", "peso": "20kg", "precio": 7500, "img": "/Images/medBall.jfif", "cantidad": 1},
 {"id": 6, "nombre": "Soga de salto", "tipo": "Soga", "desc": "Cable de acero","marca": "G-fitness", "peso": "400gr", "precio": 3500, "img": "/Images/sogaSalto.jfif", "cantidad": 1},
-{"id": 7, "nombre": "Bandas de resistencia", "tipo": "Bandas circulares", "desc": "Goma resistente", "marca": "G-fitness", "peso": "200gr", "precio": 5000, "img": "/Images/bandasResistencia.jfif", "cantidad": 1},
+{"id": 7, "nombre": "Bandas de resistencia", "tipo": "Bandas circulares", "desc": "Goma resistente", "marca": "G-fitness", "peso": "200gr", "precio": 5000, "img": "/imgs/bandasResistencia.jfif", "cantidad": 1},
 {"id": 8, "nombre": "TRX", "tipo": "Banda de suspención", "desc": "Hasta 140kg", "marca": "G-fitness", "peso": "2kg", "precio": 6000, "img": "/Images/trx.jfif", "cantidad": 1},
 {"id": 9, "nombre": "Kit body pump 19kg", "tipo": "Kit barra y mancuernas", "desc": "Barra y mancuernas de caño", "marca": "G-fitness", "precio": 17000, "img": "/Images/kitBodyPump.jfif", "cantidad": 1},
 {"id": 10, "nombre": "Set de conos", "tipo": "Conos tortuga", "desc": "40 conos tortuga", "marca": "Sonnos", "precio": 2500, "img": "/Images/conosTortuga.jfif", "cantidad": 1},
 {"id": 11, "nombre": "'Fuerza'", "tipo": "Rutina mensual", "desc": "Entrenamiento de pesas", "precio": 4000, "img": "/Images/ronnieColeman.jfif", "cantidad": 1},
 {"id": 12, "nombre": "'Resistencia'", "tipo": "Rutina mensual", "desc": "Cardio", "precio": 4000, "img": "/Images/resistenciaAerobica.jfif", "cantidad": 1},
-{"id": 13, "nombre": "'Plan general'", "tipo": "Rutina mensual", "desc": "Preparación física general", "precio": 4000, "img": "/Images/preparacionFisicaGral.jfif", "cantidad": 1}
+{"id": 13, "nombre": "'Plan general'", "tipo": "Rutina mensual", "desc": "Preparación física general", "precio": 4000, "img": "/Images/preparacionFisicaGral.jfif", "cantidad": 1},
+{"id": 14, "nombre": "Barra olímpica 15kg", "tipo": "Barra", "desc": "Levantamiento olímpico", "marca":"G-fitness","precio": 30000, "img": "", "cantidad": 1},
+{"id": 15, "nombre": "Dumbells - Par 20kg", "tipo": "Mancuernas", "desc": "Producto premium", "marca":"G-fitness","precio": 15000, "img": "/Images/preparacionFisicaGral.jfif", "cantidad": 1},
+{"id": 16, "nombre": "Dumbells - Par 7.5kg", "tipo": "Mancuernas", "desc": "Producto premium", "marca":"G-fitness","precio": 10000, "img": "/Images/preparacionFisicaGral.jfif", "cantidad": 1},
+{"id": 17, "nombre": "Discos de fundición", "tipo": "Discos", "desc": "10kg", "precio": 2500, "img": "/Images/preparacionFisicaGral.jfif", "cantidad": 1},
+{"id": 18, "nombre": "Discos de fundición", "tipo": "Discos", "desc": "15kg", "precio": 3000, "img": "/Images/preparacionFisicaGral.jfif", "cantidad": 1},
+{"id": 19, "nombre": "Discos de fundición", "tipo": "Discos", "desc": "20kg", "precio": 4000, "img": "/Images/preparacionFisicaGral.jfif", "cantidad": 1},
+{"id": 20, "nombre": "Escalera de coordinación", "tipo": "Funcional", "marca":"Dribbling","desc": "10 metros", "precio": 2500, "img": "/Images/preparacionFisicaGral.jfif", "cantidad": 1},
+{"id": 21, "nombre": "Medball 9kg", "tipo": "Pelota", "desc": "Cuerina premium", "marca":"Sonnos", "peso":"9kg","precio": 4500, "img": "/Images/preparacionFisicaGral.jfif", "cantidad": 1}
 ]

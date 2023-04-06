@@ -6,7 +6,7 @@ const ItemDetail = ({item}) =>{
         navigate(-1)
     }
     return(
-        <div className="container my-5">
+        <div className="container mt-5">
             <h2>{item.nombre}</h2>
             <img src={item.img} alt={item.nombre}/>
             <p>{item.desc}</p>
